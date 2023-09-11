@@ -1,0 +1,141 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+.capitalise-text {
+    text-transform: capitalize;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 900px;
+}
+
+.title-banner {
+    background: #0072CE;
+    color: #fff;
+    padding: 5px 8px;
+    border-bottom: solid 1px #fff;
+}
+
+.title-banner .banner-text,
+.title-banner .banner-logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.title-banner .banner-logo img {
+    padding-top: 5px;
+    height: 25px;
+}
+
+.title-banner .banner-logo {
+    text-align: right;
+    float: right;
+}
+
+.patient-banner {
+    background: #FEF9CC;
+    padding: 15px 8px;
+    border-bottom: solid 1px #fff;
+    margin-bottom: 5px;
+}
+
+.patient-banner .patient-name,
+.patient-banner .patient-metadata {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.patient-banner .patient-metadata {
+    text-align: right;
+    float: right;
+}
+
+.encounter-banner {
+    background: #003087;
+    color: #fff;
+    padding: 10px 8px;
+    border-bottom: solid 1px #fff;
+}
+
+.encounter-banner .reason,
+.encounter-banner .date {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.encounter-banner .date {
+    float: right;
+    text-align: right;
+}
+
+.prsb-heading-banner {
+    background: #425563;
+    color: #fff;
+    padding: 10px 8px;
+    border-bottom: solid 1px #fff;
+    font-weight: 700;
+}
+
+.prsb-heading-banner.presenting-complaints-or-issues {
+    background: #003087;
+    color: #fff;
+}
+
+.prsb-heading-banner.safeguarding {
+    background: #8A1538;
+    color: #fff;
+}
+
+.prsb-heading-banner.plan-and-requested-actions {
+    background: #ED8B00;
+    color: #fff;
+}
+
+.prsb-heading-banner.medications-and-medical-devices {
+    background: #005EB8;
+    color: #fff;
+}
+
+.prsb-heading-banner.observation {
+    background: #330072;
+}
+
+.prsb-heading-banner.metadata {
+    background: #E8EDEE;
+    color: #222;
+}
+
+.prsb-content {
+    border-bottom: solid 1px #fff;
+    margin-bottom: 15px;
+}
+
+.prsb-content p {
+    padding: 10px 8px;
+}
+
+.prsb-content table {
+    table-layout: fixed;
+    width: 100%;
+    border: solid 1px #CCE3F5;
+}
+
+.prsb-content table td:first-letter {
+    text-transform: capitalize;
+}
+
+.prsb-content table td {
+    padding: 10px 8px;
+}
+
+.prsb-content table td.nhs-pale-grey {
+    background: #F6F8F8;
+    width: 200px;
+}
+
+.prsb-content td ul {
+    margin: 0;
+}
